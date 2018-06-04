@@ -5,17 +5,18 @@ fields:
 - type: text
   name: title
   label: Title
+  default: Ethertoxicus Malidictus
 - name: sub_heading
   label: Sub Heading
   type: text
   hidden: false
-  default: ''
+  default: Singularity... welcome digital overlords!
 - name: banner_image
   label: Banner Image
   type: file
   description: Dimensions work best at 1200 pixels by 400 pixels
   hidden: false
-  default: ''
+  default: "/uploads/2018/02/17/neurons.jpg"
 - name: tags
   label: Tags
   type: tag_list
